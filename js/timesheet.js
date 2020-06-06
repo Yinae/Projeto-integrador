@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
 
     CarregaTs();
 
@@ -180,7 +180,7 @@ function InsereInfoNoModal(DivClicada) {
         let nome = document.getElementById("nome") //divClicada[0][3]
         let Descricao = document.getElementById("descrição") //divClicada[0][4]
         let categoria = document.getElementById("categoria") //divClicada[0][6]
-            // console.log(DivClicada);
+        // console.log(DivClicada);
         nome.innerHTML = DivClicada[0][3]
         Descricao.innerHTML = DivClicada[0][4]
         categoria.innerHTML = DivClicada[0][6]

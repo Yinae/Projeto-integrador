@@ -20,9 +20,9 @@
     display: inline;
 }
 
-.modal-body .item {
+.modal-body .descricao{
     border: 1px gray solid;
-    border-radius: 45px;
+    border-radius: 40px;
 }
 
 #cor-categoria {
@@ -46,4 +46,19 @@
 
 .modal-body #descrição {
     font-weight: normal;
+}
+
+@media (max-width: 1000px) {
+    .descricao {
+        padding-top: 2%;
+    }
+}
+
+@media (max-width: 600px) {
+    .modal-body {
+        font-size: 3rem;
+    }
+    .descricao {
+        height: 500px;
+    }
 }

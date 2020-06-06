@@ -2,9 +2,11 @@
   padding: 10px;
   background-color: rgba(204, 204, 204, 0.185);
 }
+
 .date-label-checked {
   background-color: rgba(204, 204, 204, 0.486);
 }
+
 input[type=checkbox] {
   display: none;
 }
@@ -65,18 +67,17 @@ input[type=checkbox]+label {
   background: #3498db;
 }
 
-.buttons .orange .button span{
- background: #e67e22;
+.buttons .orange .button span {
+  background: #e67e22;
 }
 
-.buttons .concreto .button span{
- background: #95a5a6;
+.buttons .concreto .button span {
+  background: #95a5a6;
 }
 
-.buttons .purple .button span{
-background: #9b59b6;
+.buttons .purple .button span {
+  background: #9b59b6;
 }
-
 
 .layer {
   display: block;
@@ -102,20 +103,24 @@ background: #9b59b6;
   background: #3498db;
 }
 
-.buttons .orange input:checked~.layer{
-background: #e67e22;
+.buttons .orange input:checked~.layer {
+  background: #e67e22;
 }
 
-.buttons .concreto input:checked~.layer{
-background: #95a5a6;
+.buttons .concreto input:checked~.layer {
+  background: #95a5a6;
 }
 
-.buttons .purple input:checked~.layer{
-background: #9b59b6;
+.buttons .purple input:checked~.layer {
+  background: #9b59b6;
 }
 
-
-.buttons .turquesa, .buttons .cinza, .buttons .blue, .buttons .orange, .buttons .concreto, .buttons .purple  {
+.buttons .turquesa,
+.buttons .cinza,
+.buttons .blue,
+.buttons .orange,
+.buttons .concreto,
+.buttons .purple {
   background-color: transparent;
 }
 
@@ -123,7 +128,8 @@ background: #9b59b6;
   border: 4px solid black;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 12px;
   border-radius: 6px;
@@ -192,6 +198,6 @@ form button:hover {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 50%;
+      max-width: 50%;
   }
 }
